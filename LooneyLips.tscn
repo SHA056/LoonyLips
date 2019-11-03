@@ -40,7 +40,6 @@ margin_top = 412.0
 margin_right = 976.0
 margin_bottom = 475.0
 custom_fonts/font = SubResource( 4 )
-text = "Placeholder Text"
 autowrap = true
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
@@ -48,6 +47,7 @@ margin_top = 479.0
 margin_right = 976.0
 margin_bottom = 552.0
 custom_constants/separation = 12
+alignment = 2
 
 [node name="PlayerText" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
 margin_right = 810.0
@@ -55,6 +55,7 @@ margin_bottom = 73.0
 size_flags_horizontal = 3
 custom_fonts/font = SubResource( 2 )
 placeholder_text = "Placeholder editable text"
+placeholder_alpha = 0.0
 
 [node name="TextureButton" type="TextureButton" parent="VBoxContainer/HBoxContainer"]
 margin_left = 822.0
