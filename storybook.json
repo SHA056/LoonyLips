@@ -1,0 +1,19 @@
+[	
+	{
+	"prompts" : ["a food", "a place", "an insult", "the same food"],
+	"story" : "The best %s in %s is an %s %s."
+	},
+	{
+	"prompts" : ["first name", "last name", "a dish"],
+	"story" : "%s %s makes the best %ss in the world."
+	},{
+	"prompts" : ["first name", "an insult", "a food", "a dish"],
+	"story" : "%s makes better %s %ses than %s."
+	},{
+	"prompts" : ["first name", "a city", "a dish"],
+	"story" : "If you ever go to %s's restaurant in %s, you should definately get %s."
+	},{
+	"prompts" : ["a dish", "an insult", "a food"],
+	"story" : "The best part about ordering %ss is that you get an %s %s for free!"
+	}
+]
